@@ -1,0 +1,38 @@
+# Secretos y configuración efectiva
+.env
+.env.*
+!.env.example
+.lean/
+lean.json
+credentials*
+*.pem
+*.key
+*.pfx
+*.p12
+config/*.local.json
+
+# Entornos y herramientas
+.conda/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+pytest-cache-files-*/
+.coverage
+htmlcov/
+build/
+dist/
+.ipynb_checkpoints/
+.vscode/
+
+# Datos y resultados locales (pueden contener información privada)
+data/
+artifacts/
+backtests/
+live/
+logs/
+*.log
+Thumbs.db
+.DS_Store

@@ -1,0 +1,4 @@
+{
+  "mode": "backtest",
+  "strategy": "lean_smoke_test"
+}
