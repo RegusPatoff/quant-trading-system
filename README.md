@@ -29,6 +29,10 @@ El Python del motor cloud lo gestiona QuantConnect.
 
 ## Primer backtest
 
+La estrategia experimental [MES ORB](strategies/mes_orb/README.md) permite comparar
+ORB básico y ORB con EMA. Sus [backtests se ejecutan manualmente en Cloud](strategies/mes_orb/BACKTEST.md).
+No está validada ni autorizada para paper o real.
+
 Sigue [las instrucciones del editor web](docs/first_backtest.md).
 No ejecutes el algoritmo con Python local: `AlgorithmImports` lo proporciona LEAN.
 Las pruebas locales no validan las APIs ni la ejecución del motor.
